@@ -1,0 +1,64 @@
+#home-page-content {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#home-page-content header {
+    width: 100%;
+}
+
+#home-page-content nav {
+ display: flex;
+ justify-content: space-around;
+}
+
+#home-page-content #title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    width: 85%;
+    height: 80%;
+}
+
+#home-page-content h1 {
+    font-size: 2.7rem;
+    letter-spacing: 0.25rem;
+}
+
+#title-container:first-child {
+    background-color: red;
+}
+
+#home-page-content p {
+    margin-top: 1.2rem;
+    line-height: 2.4rem;
+    text-align: justify;
+}
+
+a {
+    border: 1px solid black;
+    padding: 1.4rem 4rem;
+    border-radius: 8px;
+}
+
+.button {
+    border: none;
+}
+.button2 {
+    margin: 3.8rem 0;
+    background-color: white;
+    width: 30rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: 700 2.0rem Ubuntu;
+    color: var(--color-button);
+    box-shadow: 15px 10px 0px red;
+}

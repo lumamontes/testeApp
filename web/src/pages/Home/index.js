@@ -10,10 +10,9 @@ function Home () {
            <div id="home-page-content" className="container">
             <header>
                 <img src={Logo} alt="logo"/>
-
                 <nav>
-                    <Link to="#" className="button">Entrar</Link>
-                    <Link to="#" className="">Cadastre-se</Link>
+                    <Link to="#" className="">Entrar</Link>
+                    <Link to="#" className="button">Cadastre-se</Link>
                  </nav>
             </header>
 

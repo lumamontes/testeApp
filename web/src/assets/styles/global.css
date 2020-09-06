@@ -1,0 +1,17 @@
+:root {
+font-size: 60%;
+--color-background: red;
+
+--color-behind-background: ;
+
+--main-color: ;
+
+--soft-main-color: ;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

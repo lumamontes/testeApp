@@ -36,26 +36,20 @@
     font-size: 2.7rem;
     letter-spacing: 0.25rem;
 }
-
-#title-container:first-child {
-    background-color: red;
-}
-
 #home-page-content p {
     margin-top: 1.2rem;
     line-height: 2.4rem;
     text-align: justify;
 }
-
 a {
+    padding: 1.3rem 3rem;
+
+}
+.button, .button2{
     border: 1px solid black;
     padding: 1.3rem 3rem;
     border-radius: 8px;
     transition: 0.4s;
-}
-
-a.button {
-    border: none;
 }
 
 a.button2 {
@@ -69,10 +63,9 @@ a.button2 {
     font: 700 2.0rem Ubuntu;
     color: var(--color-button);
     box-shadow: 15px 10px 0px red;
-
     transition: 0.4s;
 }
-.button2:hover, a:hover {
+.button2:hover, .button:hover {
     background-color: rgba(128, 128, 128, 0.247);
 }
 #home-page-img {

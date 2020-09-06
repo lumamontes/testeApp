@@ -9,7 +9,13 @@
 }
 
 #home-page-content header {
-    width: 100%;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#home-page-content header img {
+    width: 50px;
 }
 
 #home-page-content nav {
@@ -43,14 +49,16 @@
 
 a {
     border: 1px solid black;
-    padding: 1.4rem 4rem;
+    padding: 1.3rem 3rem;
     border-radius: 8px;
+    transition: 0.4s;
 }
 
-.button {
+a.button {
     border: none;
 }
-.button2 {
+
+a.button2 {
     margin: 3.8rem 0;
     background-color: white;
     width: 30rem;
@@ -61,4 +69,35 @@ a {
     font: 700 2.0rem Ubuntu;
     color: var(--color-button);
     box-shadow: 15px 10px 0px red;
+
+    transition: 0.4s;
+}
+.button2:hover, a:hover {
+    background-color: rgba(128, 128, 128, 0.247);
+}
+#home-page-img {
+    display: none;
+}
+
+@media (min-width: 700px){
+    #home-page .container {
+        max-width: 1500px;
+    }
+    #home-page #title-container {
+        display: flex;
+        flex-direction: row;
+    }
+    #home-page .text {
+        width: 45%;
+    }
+    #home-page-img {
+        display: flex;
+        justify-content: flex-end;
+        width: 99%;
+    }
+    #home-page-img img {
+        width: 86%;
+
+    }
+
 }

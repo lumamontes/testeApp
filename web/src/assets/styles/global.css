@@ -1,12 +1,18 @@
 :root {
 font-size: 60%;
---color-background: red;
 
---color-behind-background: ;
+--color-background: #F0F0F0;
 
---main-color: ;
+--color-behind-background: #FFFFFF ;
 
---soft-main-color: ;
+--main-color: #FF0000 ;
+
+--soft-main-color: #F05E5E ;
+--color-base: black ;
+
+--color-title: ;
+--color-text: ;
+--color-button: #524d4d ;
 
 }
 
@@ -14,4 +20,41 @@ font-size: 60%;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+html, body, #root {
+    height: 100vh;
+}
+
+body {
+    background-color: var(--color-background);
+    font-family: 'Roboto', sans-serif;
+}
+
+#root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body, input, button, textarea{
+    font: 400 1.6rem Roboto;
+    color: var(--color-base);
+}
+
+.container{
+    width: 95vw;
+    max-width: 700px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-base);
+
+}
+
+@media (min-width: 700px){
+    :root{
+        font-size: 65%;
+    }
 }

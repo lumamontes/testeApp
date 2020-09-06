@@ -1,7 +1,7 @@
 :root {
 font-size: 60%;
 
---color-background: #F0F0F0;
+--color-background: #ffffff;
 
 --color-behind-background: #FFFFFF ;
 
@@ -50,11 +50,11 @@ body, input, button, textarea{
 a {
     text-decoration: none;
     color: var(--color-base);
-
 }
 
 @media (min-width: 700px){
     :root{
         font-size: 65%;
     }
+
 }

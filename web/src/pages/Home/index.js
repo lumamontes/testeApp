@@ -12,7 +12,7 @@ function Home () {
                 <img src={Logo} alt="logo"/>
                 <nav>
                     <Link to="#" className="">Entrar</Link>
-                    <Link to="#" className="button">Cadastre-se</Link>
+                    <Link to="/cadastro" className="button">Cadastre-se</Link>
                  </nav>
             </header>
 

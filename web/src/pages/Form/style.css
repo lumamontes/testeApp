@@ -1,0 +1,126 @@
+#pacient-form-page {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-behind-background);
+
+}
+
+#pacient-form-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 95%;
+
+}
+
+#pacient-form-content form {
+    background-color: var(--color-background);
+    width: 100%;
+    padding: 10% 5%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 1.5rem;
+
+}
+
+#pacient-form-content form label {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+}
+
+#pacient-form-content form input {
+    border-radius: 8rem;
+    border: 1px solid black;
+    outline: none;
+    padding: 0.9rem;
+
+}
+
+/* #home-page-content header img {
+    width: 50px;
+}
+
+#home-page-content nav {
+ display: flex;
+ justify-content: space-around;
+}
+
+#home-page-content #title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    width: 85%;
+    height: 80%;
+}
+
+#home-page-content h1 {
+    font-size: 2.7rem;
+    letter-spacing: 0.25rem;
+}
+#home-page-content p {
+    margin-top: 1.2rem;
+    line-height: 2.4rem;
+    text-align: justify;
+}
+a {
+    padding: 1.3rem 3rem;
+
+}
+.button, .button2{
+    border: 1px solid black;
+    padding: 1.3rem 3rem;
+    border-radius: 8px;
+    transition: 0.4s;
+}
+
+a.button2 {
+    margin: 3.8rem 0;
+    background-color: white;
+    width: 30rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: 700 2.0rem Ubuntu;
+    color: var(--color-button);
+    box-shadow: 15px 10px 0px red;
+    transition: 0.4s;
+}
+.button2:hover, .button:hover {
+    background-color: rgba(128, 128, 128, 0.247);
+}
+#home-page-img {
+    display: none;
+}
+
+@media (min-width: 700px){
+    #home-page .container {
+        max-width: 1500px;
+    }
+    #home-page #title-container {
+        display: flex;
+        flex-direction: row;
+    }
+    #home-page .text {
+        width: 45%;
+    }
+    #home-page-img {
+        display: flex;
+        justify-content: flex-end;
+        width: 99%;
+    }
+    #home-page-img img {
+        width: 86%;
+
+    }
+
+} */

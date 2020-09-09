@@ -3,7 +3,7 @@ font-size: 60%;
 
 --color-background: #ffffff;
 
---color-behind-background: #FFFFFF ;
+--color-behind-background: #F0F0F0 ;
 
 --main-color: #FF0000 ;
 
@@ -31,6 +31,8 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+h1, h2 {
+}
 #root {
     display: flex;
     align-items: center;

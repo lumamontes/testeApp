@@ -50,6 +50,7 @@ a {
     padding: 1.3rem 3rem;
     border-radius: 8px;
     transition: 0.4s;
+    text-align: center;
 }
 
 a.button2 {

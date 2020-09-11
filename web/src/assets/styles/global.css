@@ -10,8 +10,6 @@ font-size: 60%;
 --soft-main-color: #F05E5E ;
 --color-base: black ;
 
---color-title: ;
---color-text: ;
 --color-button: #524d4d ;
 
 }
@@ -32,6 +30,7 @@ body {
 }
 
 h1, h2 {
+    font-family: 'Ubuntu', sans-serif;
 }
 #root {
     display: flex;

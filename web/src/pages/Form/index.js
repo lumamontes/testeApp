@@ -29,9 +29,11 @@ function Form () {
                     <input type="password" placeholder="senha"/>
                 </label>
 
+                <div id="button">
+                <input type="checkbox" name="termos" id=""/> 
+                  <p>Concordo com os termos de Privacidade </p>
+                </div>
 
-                  <input type="checkbox" name="termos" id=""/>
-                  Concordo com os termos de Privacidade
                  <Link to="#" className="button"> Cadastrar </Link>
                 </form>
             </div>
